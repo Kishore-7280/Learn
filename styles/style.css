@@ -1,0 +1,139 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    margin: 0;
+}
+.logo{
+    font-size: 25px;
+    margin: 20px;
+    color: whitesmoke;
+    
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    color: whitesmoke;
+    margin: 20px;
+    font-size: 17px;
+    margin-top: 20px;
+    
+}
+.poster{
+    background-image: url(../images/Bg.jpg);
+    padding: 46px 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+.poster h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.poster p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.poster button{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ff1e00;
+    padding:10px 20px;
+
+}
+ .btn{
+	display: inline-block;
+	color: black;
+	background: transparent;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 30px;
+	transition: ease .40s;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+.poster button a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.products button{
+	display: inline-block;
+	color: black;
+	background: transparent;
+	font-size: 15px;
+    padding: 6px 15px 6px 15px;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 10px;
+	transition: ease .40s;
+    align-items: center;
+}
+.products button:hover{
+	transform: scale(1.1);
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.products{
+    background-image: url(../images/55448.png);
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+.products h1{
+    text-align: center;
+    color: whitesmoke;
+    padding: 30px 0 30px 0;
+}
+.product-grid-2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product-card {
+    background:whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 200px;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 240px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.product-card p {
+    color: #ff4081;
+    font-weight: bold;
+}
+.contact footer{
+    background: black;
+    padding: 60px 20px;
+    margin-top: 5px;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
